@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+background-color: yellowgreen;
+
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+header nav{
+    margin:20px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav li{
+    display: inline;
+    list-style-type: none;
+}
+.home, .search, .questions, .market, .sell, .logout{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 70px;
+    font-size: 2rem;
+    color: black;
+}
+.logout{
+    align-self: flex-end;
+}
+.portada__imagen{
+    width: 100%;
+    height: auto;
+    
+}
+.main__container{
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+
+}
+.plato{
+    width: 100%;
+    height: auto;
+}
