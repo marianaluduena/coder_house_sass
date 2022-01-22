@@ -1,1 +1,26 @@
-$main-font-family: "Sans";
+$main-font-family:"Indie Flower";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: yellowgreen;
+
+    .logo{
+        height: 100px;
+        width: auto;
+    }
+    nav{
+        margin:20px;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        
+        li{
+            display: inline;
+            list-style-type: none;
+        }
+    }
+ 
+}
