@@ -17,10 +17,30 @@ header {
         display: flex;
         flex-wrap: wrap;
         
-        li{
+        a{
             display: inline;
             list-style-type: none;
+           
+                .home, .search, .questions, .market, .sell, .logout{
+                    display: inline-block;
+                    padding: 10px;
+                    margin-left: 70px;
+                    font-size: 2rem;
+                    color: black;
+                }
+           
+        }
+        div{
+            .portada__imagen__container{
+                width: 100%;
+                height: auto;
+                
+            .portada__imagen{
+                width: 100%;
+                height: auto;
+            }
+            }
         }
     }
- 
+  
 }
