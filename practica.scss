@@ -1,46 +1,47 @@
+
 $main-font-family:"Indie Flower";
 
-header {
+
+header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     background-color: yellowgreen;
-
-    .logo{
-        height: 100px;
-        width: auto;
+    
+     .logo{
+            height: 100px;
+            width: auto;
+    
     }
-    nav{
+     nav{
         margin:20px;
         background-color: white;
         display: flex;
         flex-wrap: wrap;
-        
-        a{
-            display: inline;
-            list-style-type: none;
-           
-                .home, .search, .questions, .market, .sell, .logout{
-                    display: inline-block;
-                    padding: 10px;
-                    margin-left: 70px;
-                    font-size: 2rem;
-                    color: black;
-                }
-           
-        }
-        div{
-            .portada__imagen__container{
-                width: 100%;
-                height: auto;
-                
-            .portada__imagen{
-                width: 100%;
-                height: auto;
-            }
-            }
-        }
+
+     
+     }
+ 
     }
+   
   
-}
+    .logout{
+        align-self: flex-end;
+    }
+    .portada__imagen{
+        width: 100%;
+        height: auto;
+        
+    }
+    .main__container{
+        border: 5px solid black;
+        text-align: center;
+        padding: 20px;
+        margin: 30px;
+    
+    }
+    .plato{
+        width: 100%;
+        height: auto;
+    }

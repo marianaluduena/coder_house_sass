@@ -28,25 +28,24 @@ header nav {
       flex-wrap: wrap;
 }
 
-header nav a {
-  display: inline;
-  list-style-type: none;
+.logout {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
-header nav a .home, header nav a .search, header nav a .questions, header nav a .market, header nav a .sell, header nav a .logout {
-  display: inline-block;
-  padding: 10px;
-  margin-left: 70px;
-  font-size: 2rem;
-  color: black;
-}
-
-header nav div .portada__imagen__container {
+.portada__imagen {
   width: 100%;
   height: auto;
 }
 
-header nav div .portada__imagen__container .portada__imagen {
+.main__container {
+  border: 5px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+.plato {
   width: 100%;
   height: auto;
 }
