@@ -28,12 +28,19 @@ header nav {
       flex-wrap: wrap;
 }
 
-.logout {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+header nav ul a {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 70px;
+  font-size: 2rem;
+  color: #000000;
 }
 
-.portada__imagen {
+header nav ul a:hover {
+  color: #ff4500;
+}
+
+header img {
   width: 100%;
   height: auto;
 }

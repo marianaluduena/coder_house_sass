@@ -1,39 +1,9 @@
 
 $main-font-family:"Indie Flower";
 
+@import "header";
 
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: yellowgreen;
-    
-     .logo{
-            height: 100px;
-            width: auto;
-    
-    }
-     nav{
-        margin:20px;
-        background-color: white;
-        display: flex;
-        flex-wrap: wrap;
-
-     
-     }
- 
-    }
    
-  
-    .logout{
-        align-self: flex-end;
-    }
-    .portada__imagen{
-        width: 100%;
-        height: auto;
-        
-    }
     .main__container{
         border: 5px solid black;
         text-align: center;
