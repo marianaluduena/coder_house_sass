@@ -1,6 +1,12 @@
+$color-main-content: #ffa500;
+
 .main__container{
     border: 5px solid black;
     text-align: center;
     padding: 20px;
     margin: 30px;
+}
+
+body{
+    background-color: $color-main-content;
 }
